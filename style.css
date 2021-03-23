@@ -1,0 +1,283 @@
+/* Default css end */
+.container {
+	max-width: 1300px;
+	margin: auto;
+}
+* {
+	margin: 0;
+	padding: 0;
+}
+a {
+	text-decoration: none;
+	color: #fff;
+}
+.margin-bottom {
+	margin-bottom: 10px;
+}
+/* Default css end */
+
+/* Header-Section Start */
+.header {
+	background: #353b48;
+}
+.header ul {
+	text-align: center;
+}
+.header ul li {
+	display: inline-block;
+	list-style: none;
+	border-right: 2px solid #ddd;
+	border-radius: 10px;	
+	box-sizing: border-box;
+
+}
+.header ul li a {
+	display: block;
+	font-size: 17px;
+	padding: 15px 20px;
+	transition: .4s;
+}
+.header ul li a:hover {
+	color: #7f8fa6;
+	letter-spacing: 1.2px;
+}
+/* Header-Section End */
+/* Banner-section Start */
+.banner {
+	background: url(images/header-bg.jpg) no-repeat center center;
+	padding: 300px 0px;
+}
+.banner h1 {
+	color: #fff;
+	font-size: 50px;
+	text-align: center;
+	background: rgba(0,0,0,.2);
+	padding: 15px;
+	border-radius: 10px;
+}
+.banner-button {
+	text-align: center;
+	margin-top: 50px;
+}
+.banner-button button {
+	font-size: 20px;
+	padding: 10px 40px;
+	border-radius: 10px;
+	background: #353b48;
+	border: 1px solid #ddd;
+	color: #fff;
+	box-shadow: 0px 8px 12px -5px rgba(127,143,166);
+
+	transition: .4s;
+}
+.banner-button button:hover {
+	background: #fff;
+	color: #333;
+	border: 1px solid #333;
+	box-shadow: 0px 8px 12px -5px rgba(127,143,166);
+}
+/* Banner-section End */
+
+/* Blog-Section Start */
+.blog-section {
+	background: #353b48;
+	overflow: hidden;
+	padding: 50px 0px;
+}
+.blog-left {
+	width: 68%;
+	float: left;
+}
+.blog-left h1 {
+	color: #fff;
+	font-size: 40px;
+	margin-bottom: 23px;
+}
+.blog-left p {
+	color: #ddd;
+	font-size: 19px;
+}
+.blog-right {
+	width: 28%;
+	float: right;
+}
+.blog-right ul li {
+	color: #fff;
+	font-size: 20px;
+	padding: 10px 20px;
+	border: 1px solid #ddd;
+	list-style: none;
+	margin-bottom: 15px;
+	border-radius: 9px;
+	transition: .8s;
+}
+.blog-right ul li:hover {
+	background: #718093;
+	letter-spacing: 0.3px;
+}
+/* Blog-Section Start */
+/* contact-Section Start */
+.contact-section {
+	background: #7f8fa6;
+	overflow: hidden;
+	padding: 50px 0px;
+}
+.table-section {
+	width: 48%;
+	float: left;
+	padding: 20px;
+	box-sizing: border-box;
+	box-shadow: 2px 5px 35px #718093;
+	border-radius: 10px;
+}
+.table-section table tr th {
+	padding: 10px 15px;
+	font-size: 25px;
+	color: #fff;
+	border-bottom: 1px solid #333;
+}
+
+.table-section table tr td {
+	padding: 20px 0;
+	font-size: 19px;
+	text-align: center;
+	color: #fff;
+
+}
+.table-section table tr td {
+	transition: .4s;
+	border-bottom: 1px solid transparent;
+}
+.table-section table tr td:hover {
+	border-bottom: 1px solid rgba(0,0,0,0.3);
+	letter-spacing: 1.3px;
+}
+.contact-form {
+	width: 48%;
+	float: left;
+	background: #7f8fa6;
+	padding: 31px 50px;
+	box-sizing: border-box;
+	margin-left: 30px;
+	box-shadow: 2px 5px 35px #718093;
+	border-radius: 10px;
+}
+.contact-form h1 {
+	font-size: 45px;
+	margin-top: -25px;
+	margin-bottom: 25px;
+	color: #fff;
+	text-align: center;
+}
+.contact-form .input-style {
+	padding: 10px;
+	width: 250px;
+	margin-bottom: 10px;
+	border-radius: 5px;
+	outline: none;
+	background: #718093;
+	border: 1px solid transparent;
+	color: #fff;
+	box-shadow: 1px 1px 4px rgba(0,0,0,.1);
+	font-size: 14px;
+	transition: .4s;
+}
+.contact-form .input-style:hover {
+	letter-spacing: .3px;
+	border: 1px solid rgba(0,0,0,.3);
+}
+.contact-form label {
+	width: 110px;
+	display: inline-block;
+	font-size: 18px;
+	color: #fff;
+}
+ span {
+	font-size: 18px;
+	color: #fff;
+	padding: 10px;
+}
+#button {
+	font-size: 18px;
+	padding: 10px 30px;
+	color: #fff;
+	background: #7f8fa6;
+	border: none;
+	box-shadow: 5px 5px 40px 20px #718093;
+	border-radius: 7px;
+	margin-right: 20px;
+	margin-top: 50px;
+	transition: .4s;
+}
+#button:hover {
+	background: #718093;
+	box-shadow: 5px 5px 40px #718093;
+}
+/* contact-Section End */
+
+
+
+
+/* Footer-Section Start */
+.footer-section {
+	background: #2f3640;
+	padding: 20px 0px;
+}
+.footer-section p {
+	text-align: center;
+	color: #fff;
+	font-size: 17px;
+}
+/* Footer-Section End */
+
+/* CSS Homework Start */
+
+/* Box-Model */
+
+.box-model {
+	background: #ddd;
+	width: 300px;
+	border: 10px solid red;
+	padding: 50px;
+	margin: 20px;
+}
+/*  */
+/* Height and Width */
+.haw h1 {
+	height: 50px;
+	width: 100%;
+	border: 1px solid green;
+}
+/*  */
+/* CSS Outline */
+.outline {
+	border: 5px solid red;
+	padding: 20px;
+	box-sizing: border-box;
+	outline: green solid 10px;
+}
+/*  */
+/* Fonts */
+.css_font {
+	font-family: 'Lobster', cursive;
+}
+/*  */
+/* Icon */
+.icon i {
+	font-size: 30px;
+}
+/*  */
+/* CSS Homework End */
+
+
+
+
+
+
+
+
+
+
+
+
+
